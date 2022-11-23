@@ -2,7 +2,8 @@ import smtplib
 import ssl
 from email.message import EmailMessage
 
-
+subject = "Email From Python"
+body = "This is a test email form Python!"
 sender_email = "enter the sender gmail here"
 receiver_email = "enter reciver email"
 password = input("Enter a app-password: ")
